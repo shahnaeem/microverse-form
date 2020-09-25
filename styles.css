@@ -1,0 +1,145 @@
+html {
+  font-family: Helvetica, sans-serif;
+  background-color: #ECEEF1;
+  color: #444444;
+  font-weight: 400;
+  margin: 20px;
+}
+
+body {
+  margin: auto;
+}
+
+header {
+  font-size: 12px;
+  float: right;
+  display: flex;
+  align-content: center;
+  height: 35px;
+}
+
+div.signup-text {
+  padding: 10px;
+  float: left;
+  align-self: center;
+  display: grid;
+  grid-template-rows: 2;
+}
+
+a {
+  color: #0077C5;
+  text-decoration: none;
+}
+
+.signin-btn {
+  float: right;
+  display: flex;
+}
+
+button {
+  align-items: center;
+  background-color: #0077C5;
+  color: white;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+
+button.submit {
+  width: 100px
+}
+
+.padlock {
+  width: 15px;
+}
+
+main {
+  color: #6B6C72;
+  margin: auto;
+  padding: 3%;
+  width: 400px;
+  display: block;
+  justify-content: center;
+  text-align: center;
+}
+
+.intuiticons1 {
+  width: 150px;
+
+}
+.intuiticons2 {
+  width: 350px;
+  margin-bottom: 10px;
+}
+
+.form {
+  background-color: white;
+  padding: 15px;
+  border: 1px solid #C7C7C7;
+  border-radius: 2px;
+}
+
+form h1 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+form p {
+  font-size: 14px;
+}
+
+form a {
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.input-size {
+  width: 85%;
+  padding: 8px;
+}
+
+.inputtext {
+  font-size: 10px;
+}
+
+fieldset {
+  border: none;
+  padding: 0px;
+  display: flex;
+  font-size: 14px;
+}
+
+label {
+  text-align: left;
+  margin-left: 30px;
+}
+
+.form-end {
+  font-style: italic;
+  font-size: 12px;
+  margin: 30px;
+}
+
+.formfooter {
+  border-top: none;
+  background-color: #ECEEF1;
+}
+
+footer {
+  font-size: 12px;
+  text-align: center;
+  width: 60%;
+  margin: auto;
+}
+
+.footera {
+  color: #444444;
+}
+
+button.priv-btn {
+  position: fixed;
+  bottom: 0;
+  right: 5%;
+  background-color: #6B6C72;
+  width: 10%;
+  height: 6%;
+}
