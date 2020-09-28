@@ -6,10 +6,6 @@ html {
   margin: 20px;
 }
 
-body {
-  margin: auto;
-}
-
 header {
   font-size: 12px;
   float: right;
@@ -53,8 +49,8 @@ button.submit {
 }
 
 main {
-  color: #6B6C72;
   margin: auto;
+  color: #6B6C72;
   padding: 3%;
   width: 400px;
   display: block;
@@ -103,7 +99,7 @@ form a {
 
 fieldset {
   border: none;
-  padding: 0px;
+  padding: auto;
   display: flex;
   font-size: 14px;
 }
