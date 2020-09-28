@@ -11,10 +11,17 @@ header {
   display: flex;
   align-content: center;
   height: 35px;
+} 
+
+header p{
+  margin:3px;
+  padding-right: 6px;
 }
 
-div.signup-text {
-  padding: 10px;
+.signup-text {
+  //display:flex;
+  //flex-flow: column;
+  
   float: left;
   align-self: center;
 }
@@ -30,10 +37,10 @@ a {
 }
 
 button {
+  border: none;
   align-items: center;
   background-color: #0077c5;
   color: white;
- // border: 1px solid gray;
   border-radius: 4px;
 }
 
@@ -79,12 +86,11 @@ form h1 {
 
 form p {
 
-  font-size: 14px;
+  font-size: 13px;
   text-align: center;
 }
 
 form a {
-  font-size: 12px;
   text-decoration: none;
 }
 
@@ -116,9 +122,10 @@ label {
 
 
 .form-end {
+  line-height: 20px;
+  padding-top: 20px;
   font-style: italic;
-  font-size: 12px;
-  margin: 30px;
+  margin: 20px;
 }
 
 .formfooter {
@@ -149,6 +156,5 @@ button.priv-btn {
 .account-btn {
   width: 315px;
   height: 40px;
-  border: none;
 }
 
