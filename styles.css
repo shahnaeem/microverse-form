@@ -33,7 +33,7 @@ button {
   align-items: center;
   background-color: #0077c5;
   color: white;
-  border: 1px solid gray;
+ // border: 1px solid gray;
   border-radius: 4px;
 }
 
@@ -78,8 +78,9 @@ form h1 {
 }
 
 form p {
+
   font-size: 14px;
-  text-align: left;
+  text-align: center;
 }
 
 form a {
@@ -89,11 +90,12 @@ form a {
 
 input {
   margin: auto;
-  padding: 30px;
+  padding: 6px;
 }
 
 .input-size {
-  width: 80%;
+  margin-top: 10px;
+  width: 300px;
   border: 1px solid #c1c5c8;
   border-radius: 2px;
 }
@@ -111,6 +113,7 @@ fieldset {
 label {
   text-align: left;
 }
+
 
 .form-end {
   font-style: italic;
@@ -142,3 +145,10 @@ button.priv-btn {
   width: 10%;
   height: 6%;
 }
+
+.account-btn {
+  width: 315px;
+  height: 40px;
+  border: none;
+}
+
