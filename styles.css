@@ -2,7 +2,6 @@ html {
   font-family: Helvetica, sans-serif;
   background-color: #eceef1;
   color: #444;
-  font-weight: 400px;
   margin: 20px;
 }
 
@@ -48,7 +47,7 @@ button.submit {
 
 main {
   margin: auto;
-  color: #6B6c72;
+  color: #6b6c72;
   padding: 3%;
   width: 400px;
   display: block;
