@@ -2,7 +2,7 @@ html {
   font-family: Helvetica, sans-serif;
   background-color: #eceef1;
   color: #444;
-  margin: 20px;
+  margin: auto;
 }
 
 header {
@@ -48,7 +48,7 @@ button.submit {
 main {
   margin: auto;
   color: #6b6c72;
-  padding: 3%;
+  padding: 0%;
   width: 400px;
   display: block;
   justify-content: center;
@@ -66,7 +66,8 @@ main {
 
 .form {
   background-color: white;
-  padding: 15px;
+  margin: auto;
+  padding: 30px;
   border: 1px solid #c7c7c7;
   border-radius: 2px;
 }
@@ -78,6 +79,7 @@ form h1 {
 
 form p {
   font-size: 14px;
+  text-align: left;
 }
 
 form a {
@@ -85,9 +87,15 @@ form a {
   text-decoration: none;
 }
 
+input {
+  margin: auto;
+  padding: 30px;
+}
+
 .input-size {
-  width: 85%;
-  padding: 8px;
+  width: 80%;
+  border: 1px solid #c1c5c8;
+  border-radius: 2px;
 }
 
 .inputtext {
@@ -102,7 +110,6 @@ fieldset {
 
 label {
   text-align: left;
-  margin-left: 30px;
 }
 
 .form-end {
