@@ -10,7 +10,7 @@ header {
   display: flex;
   align-content: center;
   height: 35px;
-} 
+}
 
 header p {
   margin: 3px;
@@ -155,4 +155,3 @@ button.priv-btn {
   height: 45px;
   font-size: 15px;
 }
-
